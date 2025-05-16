@@ -1,12 +1,33 @@
-# React + Vite
+# 📝 Markdown to HTML Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, professional Markdown editor and HTML converter built with **React**, **TailwindCSS**. Write Markdown and see real-time HTML output, and export the result with ease.
 
-Currently, two official plugins are available:
+![Preview](./screenshot.png) <!-- Add a screenshot here if possible -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ⚡️ Real-time Markdown to HTML conversion
+- 📋 Copy generated HTML to clipboard
+- 📥 Download HTML as a standalone file
+- 🧼 Sanitized output using DOMPurify
+- 💅 Fully responsive and beautifully themed with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+🔗 [Try it live here](https://your-live-site-link.com)
+
+## 📦 Tech Stack
+
+- **Frontend**: React, Tailwind CSS, Milkdown
+- **Markdown Parsing**: `marked.js`
+- **Security**: `DOMPurify` to sanitize output
+- **Deployment**: Vercel 
+
+## 📂 Future Scope:
+
+- Allow users to import `.md` files
+- Use and md editor for users to see (WYSIWYG)
+- Better styling
+- CSS for styling markdown better on people's defined font sizing.
+
+

@@ -63,7 +63,7 @@ export default function App() {
       </div>
 
       <footer className="text-center p-4 text-gray-500 dark:text-gray-400">
-        Built by Attharv Shrivastav • <a href="#" target="_blank" rel="noopener noreferrer" className="underline">GitHub</a>
+        Built by Attharv Shrivastav • <a href="https://github.com/AttharvShrivastav/markdown-html-converter" target="_blank" rel="noopener noreferrer" className="underline">GitHub</a>
       </footer>
     </div>
   );
