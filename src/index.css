@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+
+@theme{
+    --color-vanilla: '#f2f3ae';
+    --color-flax: '#edd382';
+    --color-sandy: '#fc9e4f';
+    --color-giants: '#ff521b';
+    --color-oxford: '#020122';
+
+    --font-heading: "Poppins";
+    --font-body: "Roboto";
+    
+}
